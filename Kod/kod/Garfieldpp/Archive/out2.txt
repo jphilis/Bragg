@@ -1,0 +1,923 @@
+MediumMagboltz::LoadGasFile:
+    Reading file CF4.gas.
+    Version 12.
+    Gas composition set to CF4.
+MediumMagboltz::LoadMobility:
+    Read 19 values from file /chalmers/groups/subprog/devuan.compile/garfield/ins/share/Garfield/Data/IonMobility_CF4+_CF4.txt
+ComponentAnalyticField::AddReadout:
+    Readout group Cathode comprises:
+      1 plane
+Sensor::AddElectrode:
+    Added readout electrode "Cathode".
+    All signals are reset.
+ComponentAnalyticField::AddReadout:
+    Readout group Anode comprises:
+      1 plane
+Sensor::AddElectrode:
+    Added readout electrode "Anode".
+    All signals are reset.
+TrackTrim::ReadFile: Read energy vs position for 999 ions.
+    Initial kinetic energy set to 5400 keV. Mass number: 4.
+Sensor::SetTimeWindow: Resetting all signals.
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000029, 0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000029, 0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000049, -0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000049, -0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000100, -0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000100, -0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000151, -0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000151, -0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000201, -0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000201, -0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000251, -0.000000, 0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000251, -0.000000, 0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000300, 0.000000, -0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000300, 0.000000, -0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000348, 0.000000, -0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000348, 0.000000, -0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000396, 0.000000, -0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000396, 0.000000, -0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000444, 0.000000, -0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000444, 0.000000, -0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000491, 0.000001, -0.000001).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000491, 0.000001, -0.000001).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000537, 0.000001, -0.000001).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000537, 0.000001, -0.000001).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000583, 0.000001, -0.000001).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000583, 0.000001, -0.000001).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000629, 0.000001, -0.000001).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000629, 0.000001, -0.000001).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000673, 0.000002, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000673, 0.000002, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000718, 0.000002, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000718, 0.000002, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000762, 0.000002, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000762, 0.000002, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000805, 0.000003, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000805, 0.000003, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000848, 0.000003, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000848, 0.000003, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000890, 0.000004, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000890, 0.000004, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000932, 0.000004, -0.000003).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000932, 0.000004, -0.000003).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.000973, 0.000005, -0.000003).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.000973, 0.000005, -0.000003).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001014, 0.000006, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001014, 0.000006, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001054, 0.000006, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001054, 0.000006, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001094, 0.000007, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001094, 0.000007, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001133, 0.000007, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001133, 0.000007, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001171, 0.000008, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001171, 0.000008, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001209, 0.000008, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001209, 0.000008, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001247, 0.000007, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001247, 0.000007, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001284, 0.000007, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001284, 0.000007, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001321, 0.000007, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001321, 0.000007, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001357, 0.000007, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001357, 0.000007, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001393, 0.000007, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001393, 0.000007, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001428, 0.000007, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001428, 0.000007, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001462, 0.000007, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001462, 0.000007, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001496, 0.000007, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001496, 0.000007, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001530, 0.000006, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001530, 0.000006, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001563, 0.000006, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001563, 0.000006, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001595, 0.000006, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001595, 0.000006, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001627, 0.000006, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001627, 0.000006, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001659, 0.000005, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001659, 0.000005, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001690, 0.000005, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001690, 0.000005, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001720, 0.000005, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001720, 0.000005, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001750, 0.000004, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001750, 0.000004, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001779, 0.000004, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001779, 0.000004, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001808, 0.000004, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001808, 0.000004, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001837, 0.000003, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001837, 0.000003, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001864, 0.000003, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001864, 0.000003, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001892, 0.000002, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001892, 0.000002, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001918, 0.000002, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001918, 0.000002, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001945, 0.000001, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001945, 0.000001, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001970, 0.000001, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001970, 0.000001, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.001996, 0.000001, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.001996, 0.000001, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002021, 0.000000, -0.000005).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002021, 0.000000, -0.000005).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002045, 0.000002, -0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002045, 0.000002, -0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002069, 0.000003, -0.000003).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002069, 0.000003, -0.000003).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002092, 0.000005, -0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002092, 0.000005, -0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002115, 0.000006, -0.000001).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002115, 0.000006, -0.000001).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002137, 0.000008, -0.000000).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002137, 0.000008, -0.000000).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002159, 0.000010, 0.000002).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002159, 0.000010, 0.000002).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002180, 0.000012, 0.000004).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002180, 0.000012, 0.000004).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002201, 0.000013, 0.000006).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002201, 0.000013, 0.000006).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002221, 0.000015, 0.000008).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002221, 0.000015, 0.000008).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002240, 0.000017, 0.000011).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002240, 0.000017, 0.000011).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002259, 0.000019, 0.000013).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002259, 0.000019, 0.000013).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002278, 0.000020, 0.000016).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002278, 0.000020, 0.000016).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002296, 0.000021, 0.000018).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002296, 0.000021, 0.000018).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002314, 0.000023, 0.000020).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002314, 0.000023, 0.000020).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002331, 0.000024, 0.000023).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002331, 0.000024, 0.000023).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002347, 0.000026, 0.000025).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002347, 0.000026, 0.000025).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002364, 0.000027, 0.000027).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002364, 0.000027, 0.000027).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002379, 0.000029, 0.000029).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002379, 0.000029, 0.000029).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002395, 0.000030, 0.000031).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002395, 0.000030, 0.000031).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002409, 0.000031, 0.000034).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002409, 0.000031, 0.000034).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002424, 0.000033, 0.000036).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002424, 0.000033, 0.000036).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002437, 0.000033, 0.000038).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002437, 0.000033, 0.000038).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002451, 0.000034, 0.000041).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002451, 0.000034, 0.000041).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002464, 0.000035, 0.000043).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002464, 0.000035, 0.000043).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002476, 0.000036, 0.000045).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002476, 0.000036, 0.000045).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002488, 0.000037, 0.000047).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002488, 0.000037, 0.000047).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002500, 0.000038, 0.000049).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002500, 0.000038, 0.000049).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002511, 0.000039, 0.000051).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002511, 0.000039, 0.000051).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002522, 0.000039, 0.000053).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002522, 0.000039, 0.000053).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002532, 0.000040, 0.000055).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002532, 0.000040, 0.000055).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002542, 0.000041, 0.000057).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002542, 0.000041, 0.000057).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002552, 0.000041, 0.000058).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002552, 0.000041, 0.000058).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002561, 0.000042, 0.000060).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002561, 0.000042, 0.000060).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002570, 0.000042, 0.000062).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002570, 0.000042, 0.000062).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002578, 0.000043, 0.000063).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002578, 0.000043, 0.000063).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002587, 0.000044, 0.000064).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002587, 0.000044, 0.000064).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002595, 0.000044, 0.000066).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002595, 0.000044, 0.000066).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002602, 0.000044, 0.000067).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002602, 0.000044, 0.000067).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002610, 0.000045, 0.000068).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002610, 0.000045, 0.000068).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002616, 0.000045, 0.000069).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002616, 0.000045, 0.000069).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002623, 0.000045, 0.000070).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002623, 0.000045, 0.000070).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002629, 0.000046, 0.000071).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002629, 0.000046, 0.000071).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002635, 0.000046, 0.000073).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002635, 0.000046, 0.000073).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002641, 0.000047, 0.000073).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002641, 0.000047, 0.000073).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002647, 0.000048, 0.000073).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002647, 0.000048, 0.000073).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002652, 0.000049, 0.000073).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002652, 0.000049, 0.000073).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002657, 0.000050, 0.000073).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002657, 0.000050, 0.000073).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002662, 0.000051, 0.000074).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002662, 0.000051, 0.000074).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002666, 0.000052, 0.000074).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002666, 0.000052, 0.000074).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002671, 0.000053, 0.000074).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002671, 0.000053, 0.000074).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002675, 0.000054, 0.000075).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002675, 0.000054, 0.000075).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002679, 0.000054, 0.000075).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002679, 0.000054, 0.000075).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002682, 0.000055, 0.000076).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002682, 0.000055, 0.000076).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002686, 0.000055, 0.000076).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002686, 0.000055, 0.000076).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002689, 0.000056, 0.000077).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002689, 0.000056, 0.000077).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002692, 0.000057, 0.000078).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002692, 0.000057, 0.000078).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002696, 0.000057, 0.000078).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002696, 0.000057, 0.000078).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002698, 0.000058, 0.000079).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002698, 0.000058, 0.000079).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002701, 0.000059, 0.000079).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002701, 0.000059, 0.000079).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002704, 0.000060, 0.000079).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002704, 0.000060, 0.000079).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002706, 0.000061, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002706, 0.000061, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002709, 0.000062, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002709, 0.000062, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002711, 0.000063, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002711, 0.000063, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002713, 0.000064, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002713, 0.000064, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002715, 0.000065, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002715, 0.000065, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002717, 0.000065, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002717, 0.000065, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002719, 0.000066, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002719, 0.000066, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002721, 0.000067, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002721, 0.000067, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002723, 0.000067, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002723, 0.000067, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002725, 0.000068, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002725, 0.000068, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002727, 0.000069, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002727, 0.000069, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002729, 0.000070, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002729, 0.000070, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002730, 0.000071, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002730, 0.000071, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002732, 0.000072, 0.000082).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002732, 0.000072, 0.000082).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002733, 0.000073, 0.000082).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002733, 0.000073, 0.000082).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002735, 0.000073, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002735, 0.000073, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002736, 0.000074, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002736, 0.000074, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002737, 0.000075, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002737, 0.000075, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002739, 0.000076, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002739, 0.000076, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002740, 0.000076, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002740, 0.000076, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002741, 0.000077, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002741, 0.000077, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002742, 0.000078, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002742, 0.000078, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002743, 0.000078, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002743, 0.000078, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002744, 0.000079, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002744, 0.000079, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002745, 0.000080, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002745, 0.000080, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002747, 0.000081, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002747, 0.000081, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002747, 0.000081, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002747, 0.000081, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002749, 0.000081, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002749, 0.000081, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002750, 0.000081, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002750, 0.000081, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002751, 0.000081, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002751, 0.000081, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002752, 0.000081, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002752, 0.000081, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002753, 0.000080, 0.000080).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002753, 0.000080, 0.000080).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002754, 0.000080, 0.000081).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002754, 0.000080, 0.000081).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002755, 0.000080, 0.000082).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002755, 0.000080, 0.000082).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002757, 0.000079, 0.000083).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002757, 0.000079, 0.000083).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002758, 0.000080, 0.000085).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002758, 0.000080, 0.000085).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002759, 0.000080, 0.000087).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002759, 0.000080, 0.000087).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002760, 0.000080, 0.000090).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002760, 0.000080, 0.000090).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002760, 0.000080, 0.000093).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002760, 0.000080, 0.000093).
+DriftLineRKF::GetVelocity:
+    Cannot retrieve drift velocity at (0.002761, 0.000080, 0.000092).
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.002761, 0.000080, 0.000092).
+2.9409999115159735e-05 4.896500418928738e-11 1.4417000903523337e-10
+4.913500041998357e-05 -3.0904000231743374e-08 3.009800227275958e-08
+0.00010030000040469784 -8.847700303129238e-08 5.602099975045047e-08
+0.00015090999351303057 -2.441899976438679e-07 9.151000261996529e-08
+0.00020102998531118667 -1.728800106382691e-07 1.227200051161994e-07
+0.0002506399926484084 -1.8448022611129965e-08 9.559900376861384e-08
+0.0002996899850323975 1.6321998478183565e-07 -5.1207994174744296e-08
+0.0003481899748287382 2.1774997287456915e-07 -2.485899811915738e-07
+0.00039614998186144663 3.698899857909697e-07 -3.6094002138273737e-07
+0.0004435899978570807 4.249500163716947e-07 -4.509700210663622e-07
+0.0004905600419299626 5.591200436708656e-07 -6.215500549912726e-07
+0.0005370200110319312 7.854700875220703e-07 -7.681501184709392e-07
+0.0005830000524904997 1.0374001542360432e-06 -1.0038000992188865e-06
+0.000628500054766403 1.4353001340492828e-06 -1.3290000851859975e-06
+0.0006734100686430567 1.7919002381462864e-06 -1.5508001929333095e-06
+0.0007178000509754368 2.024100282957468e-06 -1.6276002111196272e-06
+0.0007616100515265263 2.1957003394441824e-06 -1.779100208561002e-06
+0.0008049000772527313 2.627600248823276e-06 -1.77330024698713e-06
+0.0008476800901551023 2.978900331858649e-06 -1.9883002611830604e-06
+0.0008899400792382816 3.6286002221769677e-06 -2.3140001233639107e-06
+0.00093167008736352 4.240900564115805e-06 -2.776900261696928e-06
+0.0009728900822617053 4.987600840429508e-06 -3.1084004698149233e-06
+0.0010136001213763535 5.6337005982864545e-06 -3.5379005751469256e-06
+0.0010538000853188467 6.274900862955799e-06 -3.860000683199649e-06
+0.0010935000473639774 6.810301386362837e-06 -4.202100349791199e-06
+0.0011326001254194622 7.313001076916872e-06 -4.428400888477599e-06
+0.0011712000838215786 7.586201105939888e-06 -4.4267010422577425e-06
+0.0012093001516636935 7.517200905757078e-06 -4.417000824051098e-06
+0.001247000096364611 7.392400930324356e-06 -4.304900579668846e-06
+0.0012841001564047768 7.23260129470492e-06 -4.277700767770765e-06
+0.0013208002138599794 7.323101046462062e-06 -4.431701011195504e-06
+0.0013570001456447512 7.425901245752542e-06 -4.690500497990484e-06
+0.001392600192146634 7.088600960363146e-06 -4.734900675882e-06
+0.0014276002333164545 6.859501021794541e-06 -4.940100912259709e-06
+0.0014622001588415912 6.703800934151399e-06 -5.012301171287916e-06
+0.0014963001964749954 6.611100659553001e-06 -4.994500989296124e-06
+0.0015298002277560135 6.436600420828407e-06 -4.8920009104428085e-06
+0.0015628002568962762 6.26300056975903e-06 -4.966800962729259e-06
+0.0015953002902422647 5.990800920383082e-06 -5.032900800944762e-06
+0.001627200317081682 5.6065005622542324e-06 -5.061900965487431e-06
+0.0016586003394718865 5.23960065889313e-06 -4.933500711404671e-06
+0.001689600245298539 4.770699920089216e-06 -4.766300921592119e-06
+0.0017200002649099453 4.506099525637584e-06 -4.624400542998434e-06
+0.0017499003981932598 4.296700039506207e-06 -4.596200729869439e-06
+0.0017793004154442783 4.009399488030984e-06 -4.590000699085131e-06
+0.0018082004302104842 3.6291991827130164e-06 -4.674100845664518e-06
+0.0018366004417576694 3.1698984435783485e-06 -4.709500689798548e-06
+0.0018644004485185897 2.589897855016719e-06 -4.784500882886406e-06
+0.0018916004510435007 2.064497449086979e-06 -4.76940098119582e-06
+0.0019184005663800694 1.7596971485145298e-06 -5.026001081318076e-06
+0.0019447005619865115 1.3383966920423987e-06 -5.185701247381663e-06
+0.0019704006719576863 8.784561483145259e-07 -5.264801005431813e-06
+0.0019957005472428474 5.247956755760412e-07 -5.177401182009405e-06
+0.002020500534113219 3.8600553753355035e-07 -5.066001132584126e-06
+0.0020447007484251066 1.954097574973595e-06 -4.014499770576925e-06
+0.002068500725085766 3.454899129867164e-06 -2.9120983273229195e-06
+0.002091800811772544 4.911100844606185e-06 -1.973497393158344e-06
+0.0021146007780181906 6.445502500583594e-06 -1.0284963715714991e-06
+0.0021369008567596577 7.97890411638993e-06 -2.358712724491817e-08
+0.002158700814574546 9.806705906038286e-06 1.8010069595980768e-06
+0.002179900767963532 1.1512007833799613e-05 3.5965089684000872e-06
+0.00220060083304043 1.329901050285535e-05 5.67341173043558e-06
+0.002220700892354805 1.4999012676389994e-05 8.151114054881866e-06
+0.002240300830272605 1.6854015618166694e-05 1.0700016776309097e-05
+0.0022594008792694857 1.8568016662307512e-05 1.3244019899225929e-05
+0.0022779009216422875 2.008801847931938e-05 1.5701022144302875e-05
+0.0022960009611103847 2.147601974969938e-05 1.8084024396422106e-05
+0.0023136008795258717 2.2927019959756706e-05 2.0355027485316128e-05
+0.0023307009100437433 2.444002225686229e-05 2.2564028539791234e-05
+0.0023474009356766147 2.6019022946377477e-05 2.4705030181369592e-05
+0.002363601072729476 2.7424024222854314e-05 2.6777031791923106e-05
+0.002379301090464255 2.8662025859870876e-05 2.8895033986065325e-05
+0.002394601103327001 3.0153027179815115e-05 3.12880366119495e-05
+0.0024093011108903706 3.149402912537335e-05 3.36760405924404e-05
+0.0024236011147886084 3.261003099570462e-05 3.597003910390173e-05
+0.0024374009978151336 3.330702827563826e-05 3.842804132815178e-05
+0.002450801111099697 3.419603098579617e-05 4.072104679633396e-05
+0.0024637011034649814 3.517003147574701e-05 4.290304274564699e-05
+0.002476301211572436 3.602103197755597e-05 4.50420491035407e-05
+0.0024883010810319494 3.685503211718651e-05 4.717705342340905e-05
+0.002499901180571372 3.7763036099196966e-05 4.9189050428814844e-05
+0.0025110011605311063 3.856603714837709e-05 5.1077054249433016e-05
+0.002521801254805703 3.9370035011517785e-05 5.2986056681715965e-05
+0.0025321012272162442 3.988903686685211e-05 5.489405845712351e-05
+0.0025421010808291686 4.070903447965215e-05 5.6587062768374515e-05
+0.002551701164479302 4.143503758262891e-05 5.825305876876431e-05
+0.002561001129374955 4.195303542766706e-05 6.0057065331950744e-05
+0.0025699010906222626 4.245504067978089e-05 6.163506578092686e-05
+0.00257840128214234 4.300503827809282e-05 6.316606744540818e-05
+0.0025867012396487456 4.35200421518077e-05 6.448606611124677e-05
+0.002594701311022767 4.388803873837244e-05 6.574207258228234e-05
+0.0026022012623687905 4.432504063639585e-05 6.69580686829065e-05
+0.002609501212315301 4.4659040330341504e-05 6.814306918645098e-05
+0.0026164011587552286 4.5055042183748785e-05 6.919007378057595e-05
+0.0026230012190494407 4.5458039894287544e-05 7.028307703741374e-05
+0.0026293013924778815 4.584704589632585e-05 7.145407859338532e-05
+0.0026353012136175876 4.631904518171308e-05 7.262307922713531e-05
+0.002641101266346536 4.744804187809559e-05 7.292208510567688e-05
+0.002646601199579288 4.849504572126938e-05 7.311208240557112e-05
+0.0026518012463671616 4.9466048411379666e-05 7.322007955347882e-05
+0.0026568012918058645 5.0487048038060156e-05 7.339308020210095e-05
+0.002661601335784907 5.140504912844572e-05 7.358108393159378e-05
+0.0026662013778889246 5.2195047750956385e-05 7.388308025565913e-05
+0.002670501301257889 5.2952049970501814e-05 7.423208663797619e-05
+0.002674601455503179 5.361705123555236e-05 7.457908485476454e-05
+0.0026786012598691727 5.414905145255902e-05 7.503208669111007e-05
+0.002682301410398964 5.475405150080497e-05 7.569908204868505e-05
+0.002685901443365715 5.5325050890587056e-05 7.626208916774323e-05
+0.002689201357172433 5.6054051635959433e-05 7.697408635021986e-05
+0.002692401386409305 5.66880500432964e-05 7.756208645304844e-05
+0.0026955012982494506 5.7329051548732316e-05 7.808408622397512e-05
+0.0026984014409914114 5.798205481660126e-05 7.85510869563933e-05
+0.002701101348860852 5.8863054040511705e-05 7.890908636109037e-05
+0.0027038014897056155 5.9821058627759015e-05 7.922708980821518e-05
+0.0027063013956668933 6.076905496013708e-05 7.960108905409319e-05
+0.0027087014175738414 6.165405616056131e-05 7.991808842387803e-05
+0.002710901437599053 6.269106318540398e-05 8.006009348255961e-05
+0.002713201342127886 6.36080604407578e-05 8.019709267600206e-05
+0.0027153014778567423 6.453306138872357e-05 8.039408952928739e-05
+0.0027174013807978715 6.539805741045677e-05 8.050709259435905e-05
+0.0027194013991883787 6.61610661882575e-05 8.0583090078535e-05
+0.00272140141770167 6.682306275619348e-05 8.071709159649954e-05
+0.0027234014362134975 6.743306519891664e-05 8.081709251391888e-05
+0.0027254014547600596 6.808806224764698e-05 8.088408963311485e-05
+0.0027272014713889577 6.87860675993737e-05 8.089209319224123e-05
+0.0027289013705950977 6.974707005464329e-05 8.119009504454404e-05
+0.002730401500864834 7.078306588366372e-05 8.148009332806476e-05
+0.002731801513677095 7.177207347507003e-05 8.167809424862179e-05
+0.0027333014109733275 7.259007402003753e-05 8.154508958452375e-05
+0.0027347014237084767 7.339406828652431e-05 8.136709761470885e-05
+0.002736001552111954 7.419407546310004e-05 8.126008997884172e-05
+0.0027373014477348238 7.501607790269394e-05 8.117109035737428e-05
+0.0027385014589496877 7.574807670423336e-05 8.112209401171797e-05
+0.0027397014702134 7.644807584070722e-05 8.10190881377639e-05
+0.0027409014814797307 7.702708283867406e-05 8.089309019168921e-05
+0.0027420013754067933 7.76930740685286e-05 8.080008876650784e-05
+0.0027430013848213056 7.840208084357566e-05 8.072609217977583e-05
+0.002743901509751956 7.908007746042338e-05 8.073109079614797e-05
+0.0027448014018559906 7.978508251933308e-05 8.076509143090204e-05
+0.0027465015343137167 8.101108327607825e-05 8.07050938252955e-05
+0.00274740142639245 8.148208585059293e-05 8.06830913057523e-05
+0.0027491015586675127 8.113408336815239e-05 8.02330873357142e-05
+0.0027500014506440687 8.090008077452628e-05 8.021209631337322e-05
+0.002750801458046106 8.075308426468165e-05 8.011109143286241e-05
+0.002751601465482974 8.064807737434817e-05 8.01090906725452e-05
+0.0027530014784401214 8.036307749037434e-05 8.03400956769847e-05
+0.0027541013721704526 7.986407685211504e-05 8.098009009774131e-05
+0.002755101381338828 7.966807682870137e-05 8.17340916639576e-05
+0.0027570015153225128 7.945307927471838e-05 8.308209629349411e-05
+0.0027582015262942712 7.960208397551345e-05 8.541710069768775e-05
+0.0027588015318179386 7.997608338448863e-05 8.657410372767634e-05
+0.0027600015427513068 7.998508400524342e-05 8.973411587880855e-05
+0.0027604015462500144 8.000507855692693e-05 9.269411868850383e-05
+0.002761001551854915 7.975808115769523e-05 9.200011485983734e-05
+Traceback (most recent call last):
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 210, in <module>
+    chamber.run()
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 205, in run
+    time.sleep(self.sleep_time)
+KeyboardInterrupt
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f71c72f9b07 in wait4 () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007f71c7276aa7 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x00007f71c669fdec in TUnixSystem::StackTrace() () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#3  0x00007f71c71cfde2 in (anonymous namespace)::TExceptionHandlerImp::HandleException(int) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#4  0x00007f71c669d351 in TUnixSystem::DispatchSignals(ESignals) () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#5  <signal handler called>
+#6  0x00007f71c68a13b8 in vtable for TString () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#7  0x00007f71428c969a in Garfield::ViewSignal::~ViewSignal() () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#8  0x00007f71428d6a2e in ROOT::delete_GarfieldcLcLViewSignal(void*) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#9  0x00007f71c6955305 in CPyCppyy::op_dealloc_nofree(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#10 0x00007f71c6955421 in CPyCppyy::op_dealloc(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#11 0x0000000000545998 in ?? ()
+#12 0x000000000050a9eb in ?? ()
+#13 0x0000000000545824 in ?? ()
+#14 0x000000000058f54b in PyDict_Clear ()
+#15 0x0000000000611746 in ?? ()
+#16 0x00000000005018c7 in ?? ()
+#17 0x000000000061d9a7 in _PyGC_CollectNoFail ()
+#18 0x000000000061d695 in ?? ()
+#19 0x000000000061a89f in Py_FinalizeEx ()
+#20 0x000000000060d3a1 in Py_RunMain ()
+#21 0x00000000005ea6e9 in Py_BytesMain ()
+#22 0x00007f71c7254d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#23 0x00000000005ea5ea in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007f71c68a13b8 in vtable for TString () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#7  0x00007f71428c969a in Garfield::ViewSignal::~ViewSignal() () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#8  0x00007f71428d6a2e in ROOT::delete_GarfieldcLcLViewSignal(void*) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#9  0x00007f71c6955305 in CPyCppyy::op_dealloc_nofree(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#10 0x00007f71c6955421 in CPyCppyy::op_dealloc(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#11 0x0000000000545998 in ?? ()
+#12 0x000000000050a9eb in ?? ()
+#13 0x0000000000545824 in ?? ()
+#14 0x000000000058f54b in PyDict_Clear ()
+#15 0x0000000000611746 in ?? ()
+#16 0x00000000005018c7 in ?? ()
+#17 0x000000000061d9a7 in _PyGC_CollectNoFail ()
+#18 0x000000000061d695 in ?? ()
+#19 0x000000000061a89f in Py_FinalizeEx ()
+#20 0x000000000060d3a1 in Py_RunMain ()
+#21 0x00000000005ea6e9 in Py_BytesMain ()
+#22 0x00007f71c7254d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#23 0x00000000005ea5ea in _start ()
+===========================================================
+
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f71c72f9b07 in wait4 () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007f71c7276aa7 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x00007f71c669fdec in TUnixSystem::StackTrace() () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#3  0x00007f71c71cfc6a in (anonymous namespace)::TExceptionHandlerImp::HandleException(int) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#4  0x00007f71c669d351 in TUnixSystem::DispatchSignals(ESignals) () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#5  <signal handler called>
+#6  0x00007f71c68a13b8 in vtable for TString () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#7  0x00007f71428c969a in Garfield::ViewSignal::~ViewSignal() () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#8  0x00007f71428d6a2e in ROOT::delete_GarfieldcLcLViewSignal(void*) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#9  0x00007f71c6955305 in CPyCppyy::op_dealloc_nofree(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#10 0x00007f71c6955421 in CPyCppyy::op_dealloc(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#11 0x0000000000545998 in ?? ()
+#12 0x000000000050a9eb in ?? ()
+#13 0x0000000000545824 in ?? ()
+#14 0x000000000058f54b in PyDict_Clear ()
+#15 0x0000000000611746 in ?? ()
+#16 0x00000000005018c7 in ?? ()
+#17 0x000000000061d9a7 in _PyGC_CollectNoFail ()
+#18 0x000000000061d695 in ?? ()
+#19 0x000000000061a89f in Py_FinalizeEx ()
+#20 0x000000000060d3a1 in Py_RunMain ()
+#21 0x00000000005ea6e9 in Py_BytesMain ()
+#22 0x00007f71c7254d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#23 0x00000000005ea5ea in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007f71c68a13b8 in vtable for TString () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#7  0x00007f71428c969a in Garfield::ViewSignal::~ViewSignal() () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#8  0x00007f71428d6a2e in ROOT::delete_GarfieldcLcLViewSignal(void*) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#9  0x00007f71c6955305 in CPyCppyy::op_dealloc_nofree(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#10 0x00007f71c6955421 in CPyCppyy::op_dealloc(CPyCppyy::CPPInstance*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#11 0x0000000000545998 in ?? ()
+#12 0x000000000050a9eb in ?? ()
+#13 0x0000000000545824 in ?? ()
+#14 0x000000000058f54b in PyDict_Clear ()
+#15 0x0000000000611746 in ?? ()
+#16 0x00000000005018c7 in ?? ()
+#17 0x000000000061d9a7 in _PyGC_CollectNoFail ()
+#18 0x000000000061d695 in ?? ()
+#19 0x000000000061a89f in Py_FinalizeEx ()
+#20 0x000000000060d3a1 in Py_RunMain ()
+#21 0x00000000005ea6e9 in Py_BytesMain ()
+#22 0x00007f71c7254d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#23 0x00000000005ea5ea in _start ()
+===========================================================
+
+

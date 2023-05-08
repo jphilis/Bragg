@@ -1,0 +1,156 @@
+MediumMagboltz::LoadGasFile:
+    Reading file CF4.gas.
+    Version 12.
+    Gas composition set to CF4.
+MediumMagboltz::LoadMobility:
+    Read 19 values from file /chalmers/groups/subprog/devuan.compile/garfield/ins/share/Garfield/Data/IonMobility_CF4+_CF4.txt
+ComponentAnalyticField::AddReadout:
+    Readout group Cathode comprises:
+      1 plane
+ComponentAnalyticField::AddReadout:
+    Readout group Anode comprises:
+      1 plane
+ComponentAnalyticField::AddReadout:
+    Readout group Wire comprises:
+      1 wire
+Sensor::AddElectrode:
+    Added readout electrode "Cathode".
+    All signals are reset.
+Sensor::AddElectrode:
+    Added readout electrode "Anode".
+    All signals are reset.
+Sensor::AddElectrode:
+    Added readout electrode "Wire".
+    All signals are reset.
+TrackTrim::ReadFile: Read energy vs position for 1 ions.
+    Initial kinetic energy set to 5400 keV. Mass number: 4.
+Sensor::SetTimeWindow: Resetting all signals.
+DriftLineRKF::DriftLine:
+    Cannot retrieve drift velocity at initial position (0.005542, 0.000000, -0.000000).
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 2 (Thread 0x7fb58c6ff700 (LWP 7294) "python3"):
+#0  0x00007fb5a2231ad8 in pthread_cond_timedwait
+
+GLIBC_2.3.2 () from /lib/x86_64-linux-gnu/libpthread.so.0
+#1  0x00000000004f1500 in ?? ()
+#2  0x00000000005327b2 in PyEval_RestoreThread ()
+#3  0x000000000062d2e4 in ?? ()
+#4  0x000000000052801a in ?? ()
+#5  0x0000000000516e76 in _PyEval_EvalFrameDefault ()
+#6  0x00000000005106ed in ?? ()
+#7  0x0000000000528d21 in _PyFunction_Vectorcall ()
+#8  0x0000000000513e8b in _PyEval_EvalFrameDefault ()
+#9  0x0000000000528b63 in _PyFunction_Vectorcall ()
+#10 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#11 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#12 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#13 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#14 0x000000000053bdb1 in ?? ()
+#15 0x00000000006430b6 in ?? ()
+#16 0x000000000063b164 in ?? ()
+#17 0x00007fb5a222aea7 in start_thread () from /lib/x86_64-linux-gnu/libpthread.so.0
+#18 0x00007fb5a1fada2f in clone () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 1 (Thread 0x7fb5a1eafb80 (LWP 7271) "python3"):
+#0  0x00007fb5a1f79b07 in wait4 () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007fb5a1ef6aa7 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x00007fb5a131fdec in TUnixSystem::StackTrace() () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#3  0x00007fb5a1dcfde2 in (anonymous namespace)::TExceptionHandlerImp::HandleException(int) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#4  0x00007fb5a131d351 in TUnixSystem::DispatchSignals(ESignals) () from /chalmers/sw/unsup64/root-6.26.10/lib/libCore.so
+#5  <signal handler called>
+#6  0x00007fb58931addf in Garfield::DriftLineRKF::DriftElectron(double, double, double, double) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#7  0x00007fb58cb0b034 in ?? ()
+#8  0x000000000b6347d0 in ?? ()
+#9  0x000000000b550850 in ?? ()
+#10 0x00007ffe0ed5015f in ?? ()
+#11 0x00007fb5a1dd06d8 in WrapperCall(long, unsigned long, void*, void*, void*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#12 0x00007fb5a1dd17ff in Cppyy::CallB(long, void*, unsigned long, void*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#13 0x00007fb5a15eb18f in CPyCppyy::(anonymous namespace)::BoolExecutor::Execute(long, void*, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#14 0x00007fb5a15d6236 in CPyCppyy::CPPMethod::ExecuteFast(void*, long, CPyCppyy::CallContext*) [clone .isra.0] () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#15 0x00007fb5a15d8bc8 in CPyCppyy::CPPMethod::ExecuteProtected(void*, long, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#16 0x00007fb5a15d6cca in CPyCppyy::CPPMethod::Execute(void*, long, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#17 0x00007fb5a15d790c in CPyCppyy::CPPMethod::Call(CPyCppyy::CPPInstance*&, _object*, _object*, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#18 0x00007fb5a15dbf5c in CPyCppyy::(anonymous namespace)::mp_call(CPyCppyy::CPPOverload*, _object*, _object*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#19 0x000000000051d89b in _PyObject_MakeTpCall ()
+#20 0x00000000005175ba in _PyEval_EvalFrameDefault ()
+#21 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#22 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#23 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#24 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#25 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#26 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#27 0x00000000005106ed in ?? ()
+#28 0x0000000000510497 in _PyEval_EvalCodeWithName ()
+#29 0x00000000005f5be3 in PyEval_EvalCode ()
+#30 0x0000000000619de7 in ?? ()
+#31 0x0000000000615610 in ?? ()
+#32 0x0000000000619d79 in ?? ()
+#33 0x0000000000619816 in PyRun_SimpleFileExFlags ()
+#34 0x000000000060d4e3 in Py_RunMain ()
+#35 0x00000000005ea6e9 in Py_BytesMain ()
+#36 0x00007fb5a1ed4d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#37 0x00000000005ea5ea in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x00007fb58931addf in Garfield::DriftLineRKF::DriftElectron(double, double, double, double) () from /chalmers/groups/subprog/devuan.compile/garfield/ins/lib/libGarfield.so.0.3.0
+#7  0x00007fb58cb0b034 in ?? ()
+#8  0x000000000b6347d0 in ?? ()
+#9  0x000000000b550850 in ?? ()
+#10 0x00007ffe0ed5015f in ?? ()
+#11 0x00007fb5a1dd06d8 in WrapperCall(long, unsigned long, void*, void*, void*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#12 0x00007fb5a1dd17ff in Cppyy::CallB(long, void*, unsigned long, void*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy_backend3_9.so
+#13 0x00007fb5a15eb18f in CPyCppyy::(anonymous namespace)::BoolExecutor::Execute(long, void*, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#14 0x00007fb5a15d6236 in CPyCppyy::CPPMethod::ExecuteFast(void*, long, CPyCppyy::CallContext*) [clone .isra.0] () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#15 0x00007fb5a15d8bc8 in CPyCppyy::CPPMethod::ExecuteProtected(void*, long, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#16 0x00007fb5a15d6cca in CPyCppyy::CPPMethod::Execute(void*, long, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#17 0x00007fb5a15d790c in CPyCppyy::CPPMethod::Call(CPyCppyy::CPPInstance*&, _object*, _object*, CPyCppyy::CallContext*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#18 0x00007fb5a15dbf5c in CPyCppyy::(anonymous namespace)::mp_call(CPyCppyy::CPPOverload*, _object*, _object*) () from /chalmers/sw/unsup64/root-6.26.10/lib/libcppyy3_9.so
+#19 0x000000000051d89b in _PyObject_MakeTpCall ()
+#20 0x00000000005175ba in _PyEval_EvalFrameDefault ()
+#21 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#22 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#23 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#24 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#25 0x0000000000528b63 in _PyFunction_Vectorcall ()
+#26 0x0000000000512192 in _PyEval_EvalFrameDefault ()
+#27 0x00000000005106ed in ?? ()
+#28 0x0000000000510497 in _PyEval_EvalCodeWithName ()
+#29 0x00000000005f5be3 in PyEval_EvalCode ()
+#30 0x0000000000619de7 in ?? ()
+#31 0x0000000000615610 in ?? ()
+#32 0x0000000000619d79 in ?? ()
+#33 0x0000000000619816 in PyRun_SimpleFileExFlags ()
+#34 0x000000000060d4e3 in Py_RunMain ()
+#35 0x00000000005ea6e9 in Py_BytesMain ()
+#36 0x00007fb5a1ed4d0a in __libc_start_main () from /lib/x86_64-linux-gnu/libc.so.6
+#37 0x00000000005ea5ea in _start ()
+===========================================================
+
+
+Traceback (most recent call last):
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 212, in <module>
+    chamber.run()
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 204, in run
+    self.create_signal()
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 146, in create_signal
+    self.loop_over_clusters()
+  File "/chalmers/users/jakonil/kandidatarbete/Kod/kod/Garfieldpp/main.py", line 139, in loop_over_clusters
+    self.drift.DriftElectron(cluster.x, cluster.y, cluster.z, cluster.t)
+cppyy.ll.SegmentationViolation: bool Garfield::DriftLineRKF::DriftElectron(const double x0, const double y0, const double z0, const double t0) =>
+    SegmentationViolation: segfault in C++; program state was reset
