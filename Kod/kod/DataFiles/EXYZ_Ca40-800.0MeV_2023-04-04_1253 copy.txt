@@ -1,0 +1,18 @@
+Calc. Date= 04-04-2023. Time= 12:53:02
+============================== SRIM-2013.00 ==============================
+ =====================================================================
+ =                   Ion Energy vs Position File                     =
+ =====================================================================
+ =   AXIS DEFINITIONS: X=Depth. Y.Z= Lateral plane of target surface.=
+ =   (If beam enters target at an angle. this tilt is in Y direction)=
+ =   Shown are: Ion Number. Energy (keV). X. Y. Z Position           =
+ ==================  CALCULATION   DATA  =============================
+  Ion Data: Name. Mass.   Energy . Energy Interval
+           Ca     040.00  800000keV    1000000eV
+ =====================================================================
+Ion       Energy     Depth (X)     Y           Z       Electronic   Energy Lost to
+Number    (keV)    (Angstrom)  (Angstrom)  (Angstrom)  Stop.(eV/A)  Last Recoil(eV)
+------- ----------- ---------- ----------- ----------- -----------  ---------------
+0000001 1.9976E+03  3.7636E+09  2.1714E+07  1.1399E+07  1.1284E-01  4.6951E+01
+0000001 9.9818E+02  3.7737E+09  2.2181E+07  1.2722E+07  6.2343E-02  1.3005E+01
+0000001 0.0000E+00  3.7908E+09  1.9346E+07  1.6782E+07  0.0000E+00  1.5194E+00
